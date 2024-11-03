@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Testportfolio/static/css/main.89d3556d.css",
+    "main.js": "/Testportfolio/static/js/main.7d3a40fd.js",
+    "static/js/453.cd53fc1a.chunk.js": "/Testportfolio/static/js/453.cd53fc1a.chunk.js",
+    "static/media/shop.svg": "/Testportfolio/static/media/shop.e90519f003b82f584b685ecac2b7a8ac.svg",
+    "static/media/login.svg": "/Testportfolio/static/media/login.065ce7639043bda44062e3e5f6665df0.svg",
+    "static/media/logout.svg": "/Testportfolio/static/media/logout.62b7ff07fe43f60493b59cc56ac005c2.svg",
+    "static/media/shopping-bag.svg": "/Testportfolio/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/aboutus.svg": "/Testportfolio/static/media/aboutus.3bf8419eec9bc0e485f7b6498f893486.svg",
+    "static/media/av.svg": "/Testportfolio/static/media/av.90e6d31ebd7ff6f3515ab797485ecc01.svg",
+    "index.html": "/Testportfolio/index.html",
+    "main.89d3556d.css.map": "/Testportfolio/static/css/main.89d3556d.css.map",
+    "main.7d3a40fd.js.map": "/Testportfolio/static/js/main.7d3a40fd.js.map",
+    "453.cd53fc1a.chunk.js.map": "/Testportfolio/static/js/453.cd53fc1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89d3556d.css",
+    "static/js/main.7d3a40fd.js"
+  ]
+}
