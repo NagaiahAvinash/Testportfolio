@@ -6,7 +6,7 @@ import './cart.styles.scss';
 const headerName= ['Product', 'Description','Quantity','Price','Remove']
 
 const CheckOut =()=>{
-    const {cartItems,addItemsToCart,removeItemsFromCart,totalPrice} = useContext(CartContext);
+    const {cartItems,totalPrice} = useContext(CartContext);
 
     return(
         <div className='cart-header-container'>

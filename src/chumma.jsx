@@ -1,5 +1,3 @@
-import {GoogleSign} from './dbtest.jsx';
-import {dbSetup} from './dbtest.jsx';
 import TestSignIn from './testsignin.jsx';
 import LoginForm from './testlogin.jsx';
 import './App.scss';

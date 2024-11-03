@@ -1,5 +1,5 @@
 import {createContext, useState, useEffect} from 'react';
-import Products from '../shop/shop-data.json';
+
 
 
 const addToCart =(cartItems, productsToAdd)=>{

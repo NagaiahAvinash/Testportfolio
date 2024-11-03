@@ -18,7 +18,7 @@ import {signOutUser, auth} from './dbtest.jsx';
 const Nav =()=>{
 
     const{isCartOpen} = useContext(CartContext);
-    const {currentUser, setCurrentUser} = useContext(UserContext);
+    const {currentUser} = useContext(UserContext);
     // console.log(isCartOpen, 'this is cartopen');
 
     

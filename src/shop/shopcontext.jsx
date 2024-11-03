@@ -1,6 +1,5 @@
 import {createContext, useState, useEffect} from 'react';
-import SHOP_DATA from './shop-data.js';
-import {addCollectionAndDocuments, getCollectionAndDocuments} from '../dbtest.jsx';
+import { getCollectionAndDocuments} from '../dbtest.jsx';
 
 
 export const ProductsContext = createContext({

@@ -16,6 +16,7 @@ export const UserProvider = ({children})=>{
             user&& dbSetup(user);
             setCurrentUser(user);
         })
+        StateHandler();
     }, [])
 
     return <UserContext.Provider value={value} >{children}</UserContext.Provider>

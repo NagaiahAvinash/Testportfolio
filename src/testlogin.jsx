@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {loginWithEmail, GoogleSign, dbSetup } from './dbtest.jsx';
+import {loginWithEmail, GoogleSign } from './dbtest.jsx';
 import './App.scss';
 
 
@@ -34,7 +34,7 @@ const LoginForm = ()=>{
         event.preventDefault();
         
         try{
-            const {user} = await loginWithEmail(email, password);
+            await loginWithEmail(email, password);
             alert('logged in successfully');
             resetForm();
 
@@ -44,7 +44,7 @@ const LoginForm = ()=>{
     }
 
     const Googledb =async () =>{
-        const {user} = await GoogleSign();
+        await GoogleSign();
         console.log('account added');
         // await dbSetup(user);
         alert('account added');
