@@ -1,0 +1,83 @@
+.shopcard-div{
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+.shopcard-heading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.shopcard-container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.shopcard{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    .shpimg{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        z-index: 0;
+       }
+    
+       .shpname,
+       .shpprice,
+       .addtocartbutton {
+           position: absolute;
+           color: white;
+           z-index: 1;
+           text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); // Make text more readable on the image
+       }
+    
+       .shpname{
+         top: 10px;
+         left: 10px;
+         font-size: 18px;
+         font-weight: bold;
+       }
+       .shpprice{
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 16px;
+       }
+    
+       .addtocartbutton{
+        padding: 5px 10px;
+        bottom: 10px;
+        left: 50%; 
+        background-color: rgba(49, 45, 45, 0.8);
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+        border-radius: 4px;
+        transform: translateX(-50%);
+        cursor: pointer;
+        z-index: 3;
+        transition: transform 0.1s ease;
+       }
+    
+       .addtocartbutton:hover {
+        background-color: rgb(0, 0, 0);
+    }
+    .addtocartbutton:active{
+        
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 8px 11px rgba(0,0,0,0.3);
+        transform: translate(-50%,3px);
+
+    }
+   
+}
+

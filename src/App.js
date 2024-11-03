@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {Routes, Route} from 'react-router-dom';
+import Home1 from './home1.jsx';
+import About1 from './about1.jsx';
+import Nav from './nav.jsx';
+import Chumma from './chumma.jsx';
+import Shop from './shop/shop.jsx';
+import CheckOut from './cart/checkout.jsx';
 
-function App() {
+const App = ()=> {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<Nav/>}>
+        < Route index element={<Home1/>}/>
+        <Route path='about' element={<About1/>}/>
+        <Route path='signin' element={<Chumma/>}/>
+        <Route path='shop' element={<Shop/>}/>
+        <Route path='checkout' element={<CheckOut/>}/>
+      </Route>
+    </Routes>
   );
 }
 
